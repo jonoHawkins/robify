@@ -29,14 +29,14 @@
     };
 
 
+    // ---------------------------------------------------------------
+    //  Spinner
+    // ---------------------------------------------------------------
     Spinner = function (element) {
         this.element = element;
         this.go();
     };
 
-    // ---------------------------------------------------------------
-    //  Spinner
-    // ---------------------------------------------------------------
     Spinner.prototype.go = function () {
         this.element.style.transition = "transform 100s";
         this.element.style.transform = "rotateZ(10000deg)";
