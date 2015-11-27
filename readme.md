@@ -15,7 +15,7 @@ var robbed = Robify(document.querySelector('.js-element'));
 
 // There's a simple API for stopping and starting the effect
 robbed.cancel();
-robbed.start();
+robbed.go();
 ```
 
 ### Collections
